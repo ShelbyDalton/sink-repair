@@ -1,0 +1,87 @@
+#container {
+    /* display: flex; */
+}
+
+.serviceForm {
+    padding-left: 2rem;
+}
+
+.input {
+    width: 25%;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    margin: 2rem;
+}
+
+.label {
+    display: flex;
+}
+
+.button {
+    /* padding-left: 2rem; */
+    background-color: rgb(175, 109, 236);
+    font-size: 22px;
+    width: 250px;
+    border: 5px outset #6e13aa;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover {
+    background-color: rgb(175, 109, 236);
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.serviceRequests {
+    margin-right: 60rem;
+    padding-left: 2rem;
+}
+
+#request-- {
+    padding: 1rem;
+}
+
+.li {
+    border: 1px solid #6e13aa;
+}
+
+.ul {
+    /* padding: 1rem; */
+}
+
+.request_delete {
+    height: auto;
+}
+
+.request {
+    display: flex;
+    justify-content: space-between
+}
+
+.description {
+    /* display: flex; */
+    justify-content: space-evenly;
+}
+
+#plumbers {
+    display: flex;
+    float: right;
+}
+
+.select {
+    /* display: flex;
+    justify-content: right; */
+}
+
+.b {
+
+}
+
+.requests__div {
+    border: 1px solid blueviolet;
+}
